@@ -1,5 +1,5 @@
-[    8955] Comm.get called before init, init is being called for you.
-[    8955] Context input options:
+[    1736] Comm.get called before init, init is being called for you.
+[    1736] Context input options:
 water_level[0.4] Height of free surface above seabed
 
 tank_dim[(37.7, 0.4)] Dimensions of the tank
@@ -43,7 +43,7 @@ nsave[10] Number of time steps to save per second
 dt_out[0.001] output time interval
 
 
-[    8955] Context input options:
+[    1736] Context input options:
 water_level[0.4] Height of free surface above seabed
 
 tank_dim[(37.7, 0.4)] Dimensions of the tank
@@ -87,4 +87,4 @@ nsave[10] Number of time steps to save per second
 dt_out[0.001] output time interval
 
 
-[    8955] Proteus.Profiling never initialized. Doing it at exit.
+[    1736] Proteus.Profiling never initialized. Doing it at exit.
