@@ -1,0 +1,90 @@
+[    8955] Comm.get called before init, init is being called for you.
+[    8955] Context input options:
+water_level[0.4] Height of free surface above seabed
+
+tank_dim[(37.7, 0.4)] Dimensions of the tank
+
+generation[True] Generate waves at the left boundary (True/False)
+
+free_slip[True] Should tank walls have free slip conditions (otherwise, no slip conditions will be applied).
+
+wave_gen[True] Generate waves (True/False)
+
+wave_period[2.0] Period of the waves
+
+wave_height[0.02] Height of the waves
+
+wave_depth[0.4] Wave depth
+
+wave_dir[(1.0, 0.0, 0.0)] Direction of the waves (from left boundary)
+
+wave_wavelength[6.238873769202298] Direction of the waves (from left boundary)
+
+wave_type[Linear] type of wave
+
+fast[False] switch for fast cosh calculations in WaveTools
+
+refinement[False] Gradual refinement
+
+he[0.01] Set characteristic element size
+
+gen_mesh[True] True: generate new mesh every time. False: do not generate mesh if file exists
+
+use_gmsh[False] True: use Gmsh. False: use Triangle/Tetgen
+
+T[60.0] Simulation time
+
+dt_init[0.001] Initial time step
+
+cfl[0.33] Target cfl
+
+nsave[10] Number of time steps to save per second
+
+dt_out[0.001] output time interval
+
+
+[    8955] Context input options:
+water_level[0.4] Height of free surface above seabed
+
+tank_dim[(37.7, 0.4)] Dimensions of the tank
+
+generation[True] Generate waves at the left boundary (True/False)
+
+free_slip[True] Should tank walls have free slip conditions (otherwise, no slip conditions will be applied).
+
+wave_gen[True] Generate waves (True/False)
+
+wave_period[2.0] Period of the waves
+
+wave_height[0.02] Height of the waves
+
+wave_depth[0.4] Wave depth
+
+wave_dir[(1.0, 0.0, 0.0)] Direction of the waves (from left boundary)
+
+wave_wavelength[6.238873769202298] Direction of the waves (from left boundary)
+
+wave_type[Linear] type of wave
+
+fast[False] switch for fast cosh calculations in WaveTools
+
+refinement[False] Gradual refinement
+
+he[0.01] Set characteristic element size
+
+gen_mesh[True] True: generate new mesh every time. False: do not generate mesh if file exists
+
+use_gmsh[False] True: use Gmsh. False: use Triangle/Tetgen
+
+T[60.0] Simulation time
+
+dt_init[0.001] Initial time step
+
+cfl[0.33] Target cfl
+
+nsave[10] Number of time steps to save per second
+
+dt_out[0.001] output time interval
+
+
+[    8955] Proteus.Profiling never initialized. Doing it at exit.
