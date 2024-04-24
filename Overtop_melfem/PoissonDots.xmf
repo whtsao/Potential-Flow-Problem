@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="Mesh Spatial_Domain" GridType="Collection" CollectionType="Temporal">
+      <Grid GridType="Uniform">
+        <Time Value="0.000000e+00" Name="0" />
+        <Topology Type="Triangle" NumberOfElements="1272">
+          <DataItem Format="HDF" DataType="Int" Dimensions="1272 3">PoissonDots.h5:/elementsSpatial_Domain0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem Format="HDF" DataType="Float" Precision="8" Dimensions="835 3">PoissonDots.h5:/nodesSpatial_Domain0</DataItem>
+        </Geometry>
+        <Attribute Name="nodeMaterialTypes" AttributeType="Scalar" Center="Node">
+          <DataItem Format="HDF" DataType="Int" Dimensions="835">PoissonDots.h5:/nodeMaterialTypes_t0</DataItem>
+        </Attribute>
+        <Attribute Name="elementMaterialTypes" AttributeType="Scalar" Center="Cell">
+          <DataItem Format="HDF" DataType="Int" Dimensions="1272">PoissonDots.h5:/elementMaterialTypes_t0</DataItem>
+        </Attribute>
+        <Attribute Name="u0" AttributeType="Scalar" Center="Node">
+          <DataItem Format="HDF" DataType="Float" Precision="8" Dimensions="835">PoissonDots.h5:/u0_t0</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="5.000000e-01" Name="1" />
+        <Topology Type="Triangle" NumberOfElements="1272">
+          <DataItem Format="HDF" DataType="Int" Dimensions="1272 3">PoissonDots.h5:/elementsSpatial_Domain1</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem Format="HDF" DataType="Float" Precision="8" Dimensions="835 3">PoissonDots.h5:/nodesSpatial_Domain1</DataItem>
+        </Geometry>
+        <Attribute Name="nodeMaterialTypes" AttributeType="Scalar" Center="Node">
+          <DataItem Format="HDF" DataType="Int" Dimensions="835">PoissonDots.h5:/nodeMaterialTypes_t1</DataItem>
+        </Attribute>
+        <Attribute Name="elementMaterialTypes" AttributeType="Scalar" Center="Cell">
+          <DataItem Format="HDF" DataType="Int" Dimensions="1272">PoissonDots.h5:/elementMaterialTypes_t1</DataItem>
+        </Attribute>
+        <Attribute Name="u0" AttributeType="Scalar" Center="Node">
+          <DataItem Format="HDF" DataType="Float" Precision="8" Dimensions="835">PoissonDots.h5:/u0_t1</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="1.000000e+00" Name="2" />
+        <Topology Type="Triangle" NumberOfElements="1272">
+          <DataItem Format="HDF" DataType="Int" Dimensions="1272 3">PoissonDots.h5:/elementsSpatial_Domain2</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem Format="HDF" DataType="Float" Precision="8" Dimensions="835 3">PoissonDots.h5:/nodesSpatial_Domain2</DataItem>
+        </Geometry>
+        <Attribute Name="nodeMaterialTypes" AttributeType="Scalar" Center="Node">
+          <DataItem Format="HDF" DataType="Int" Dimensions="835">PoissonDots.h5:/nodeMaterialTypes_t2</DataItem>
+        </Attribute>
+        <Attribute Name="elementMaterialTypes" AttributeType="Scalar" Center="Cell">
+          <DataItem Format="HDF" DataType="Int" Dimensions="1272">PoissonDots.h5:/elementMaterialTypes_t2</DataItem>
+        </Attribute>
+        <Attribute Name="u0" AttributeType="Scalar" Center="Node">
+          <DataItem Format="HDF" DataType="Float" Precision="8" Dimensions="835">PoissonDots.h5:/u0_t2</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
