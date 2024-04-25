@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[3]:
+
+
 from __future__ import division
 from past.utils import old_div
 from proteus import FemTools as ft
@@ -127,9 +133,13 @@ class Potential_field(object):
         return unod
 
 
+class Bvp_solver(object):
+
+
 class Time_marching(object):
 
     def __init__(self,
+                 dt,
                  grav,
                  h,
                  n,
@@ -137,6 +147,7 @@ class Time_marching(object):
                  ln,
                  x,
                  phi):
+        self.dt = dt
         self.grav = grav
         self.h = h
         self.n = n
@@ -163,7 +174,7 @@ class Time_marching(object):
         if flag in [physics.domain.boundaryTags['top']]:
             return 0.5*(u[0]**2+u[1]**2)-grav*(x[1]-h)
             
-    def forward_Euler(self,dt,x,u,phi,dpdt):
+    def forward_Euler(self):
         dt = self.dt
         x = self.x
         u = self.u
@@ -178,9 +189,6 @@ class Time_marching(object):
 #     def rk4_one_of_four(self):
 #         """ this subroutine is one of the four steps of the rk4 method"""
     
-
-
-
 
 
 
