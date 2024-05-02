@@ -133,7 +133,7 @@ class Potential_field(object):
         return unod
 
 
-class Bvp_solver(object):
+# class Bvp_solver(object):
 
 
 class Time_marching(object):
